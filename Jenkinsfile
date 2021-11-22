@@ -20,7 +20,7 @@ pipeline {
        stage('Deploy_AWS_EBS') {
          steps {
 
-            sh 'Echo trying AWS EBS'
+            sh 'echo trying AWS EBS'
 
            }
          }
