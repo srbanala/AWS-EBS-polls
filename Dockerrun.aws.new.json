@@ -1,13 +1,13 @@
 {
     "AWSEBDockerrunVersion": "1",
     "Image":  {
-        "Name": "anreddy/ebs-polls",
+        "Name": "sonarqube-latest",
         "Update": "true"
     },
     "Ports": [
      {
-        "ContainerPort": "8000",
-        "HostPort": "8000"
+        "ContainerPort": "9000",
+        "HostPort": "9000"
     }
 ]
 }
